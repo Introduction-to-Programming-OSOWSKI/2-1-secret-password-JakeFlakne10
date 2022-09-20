@@ -1,6 +1,6 @@
 #WRITE YOUR CODE IN THIS FILE
 def password():
-    p = "Knights19"
+    p = input("Pass:")
 
     if p == "Knights19":
         print("ACCESS GRANTED")

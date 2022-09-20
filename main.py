@@ -1,8 +1,9 @@
 #WRITE YOUR CODE IN THIS FILE
 def password():
-    p = input("Pass:")
+    p = ""
+    p = p.lower
 
-    if p == "Knights19":
+    if p == "knights19":
         print("ACCESS GRANTED")
     else:
         print("ACCESS DENIED")

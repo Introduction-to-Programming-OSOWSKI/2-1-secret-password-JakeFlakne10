@@ -4,8 +4,8 @@ def password():
     p = p.lower
 
     if p == "knights19":
-        print("ACCESS GRANTED")
+        return("ACCESS GRANTED")
     else:
-        print("ACCESS DENIED")
+        return("ACCESS DENIED")
 
 password()

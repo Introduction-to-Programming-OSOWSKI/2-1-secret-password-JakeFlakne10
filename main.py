@@ -4,8 +4,8 @@ from sre_constants import IN
 
 def password(p):
     if p == "Knights19":
-        return("ACCESS GRANTED")
+        return"ACCESS GRANTED"
     else:
-        return("ACCESS DENIED")
+        return"ACCESS DENIED"
 
 print(password("Knights19"))

@@ -1,11 +1,11 @@
 #WRITE YOUR CODE IN THIS FILE
-def password():
-    p = ""
-    p = p.lower
+from sre_constants import IN
 
-    if p == "knights19":
+
+def password(p):
+    if p == "Knights19":
         return("ACCESS GRANTED")
     else:
         return("ACCESS DENIED")
 
-password()
+print(password("Knights19"))
